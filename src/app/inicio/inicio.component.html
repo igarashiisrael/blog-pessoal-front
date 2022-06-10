@@ -85,12 +85,16 @@
                 {{item.data | date: 'dd/MM/yyyy'}} às {{item.data | date: 'HH:mm'}}
               </small></p>
 
+            <a [routerLink]="['/postagem-edit', item.id]" class="text-info mr-3" href="">Editar</a>
+            <a [routerLink]="['/postagem-delete', item.id]" class="text-danger" href="">Apagar</a>
+
           </div>
         </div>
       </div>
     </div>
 
     <div class="tab-pane fade" id="postagemTema" role="tabpanel" aria-labelledby="nav-postagemTema-tab">
+
       <div class="card-columns" *ngFor='let tema of listaTema'>
         <div class="card text-center" *ngFor='let item of tema.postagem'>
           <div class="card-body">
@@ -144,7 +148,7 @@
           <label for="texto">Escolha um tema ou <a data-dismiss="modal" routerLink="/tema">cadastre um novo</a>:
           </label>
           <select class="form-control" name="tema" id="tema" [(ngModel)]='idTema' (change)='findByIdTema()'>
-            <option *ngFor='let i of listaTema' value="{{i.id}}">{{i.descricao}}</option>
+            <option *ngFor='let item of listaTema' value="{{item.id}}">{{item.descricao}}</option>
           </select>
         </div>
       </div>
