@@ -1,27 +1,48 @@
-# BlogPessoalFrontGe
+# Blog Pessoal
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.7.
+Projeto desenvolvido no bloco 2 do bootcamp "Pessoa Desenvolvedora Java Web", da Generation Brasil.
 
-## Development server
+Blog pessoal onde a pessoa pode se cadastrar, alterar as informações do usuário, realizar postagens, edita-las e filtra-las por titulo ou tema.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## ✔️ Técnicas e tecnologias utilizadas
 
-## Code scaffolding
+<table align="center" style=" width: 100%">
+    <tr>
+      <td align="center">
+      <img src="https://img.shields.io/badge/Java-5B4638?style=for-the-badge&logo=java&logoColor=white">
+      <td align="center">
+      <img src="https://img.shields.io/badge/Spring_Boot-F2F4F9?style=for-the-badge&logo=spring-boot">
+      <td align="center">
+      <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white">
+      <td align="center">
+      <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=whit">
+      <td align="center">
+      <img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white">
+      <td align="center">
+      <img src="https://img.shields.io/badge/Eclipse-FE7A16.svg?style=for-the-badge&logo=Eclipse&logoColor=white">
+    <tr>
+        <td align="center">
+        <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white">
+        <td align="center">
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+        <td align="center">
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+        <td align="center">
+        <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
+        <td align="center">
+        <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
+        <td align="center">
+        <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white">
+    </tr>
+</table>
+  
+  <br>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<h2>- Links do Projeto:<h2>
 
-## Build
+- <h5> <a href="#">Site do Blog (Em Breve)</a></h5>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- <h5> <a href="https://github.com/igarashiisrael/blogpessoal" target="_blank">Repositorio com o Back-end</a></h5>
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+  <br>
+  
